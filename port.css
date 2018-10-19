@@ -1,0 +1,512 @@
+body
+{
+	margin-left: 15px;
+	background-image: url("background.jpg");
+}
+#space
+{
+	height: 150px;
+}
+@media screen and (max-width: 500px)
+{
+	#sec1
+	{
+		opacity: 0.9;
+		height: 600px;
+		background-color: maroon;
+	}
+	ul
+	{
+		font-size: 200%;
+		list-style-type: none;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	#hor_list
+	{
+		width: 100%;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 30px 0px;
+		text-decoration: none;
+	}
+	.about
+	{
+		border-radius: 40px;
+		color: yellow;
+		font-size: 200%;
+		text-align: center;
+		background-color: green; 
+		height: 70px;
+		width: 100%;
+	}
+	#eabout
+	{
+		padding: 7px;
+		font-size: 250%;
+		height: 150px;
+	}
+	#sec2
+	{
+		font-size: 200%;
+		color: white;
+		height: 750px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+	#ab
+	{
+		font-size: 40%;
+		padding: 20px;
+	}
+	#edu
+	{
+		text-align: left;
+		font-size: 70%;
+		padding: 15px;
+	}
+	#myphoto
+	{
+		border-radius: 100%;
+		position: absolute;
+		top: -300px;
+		left: 400px;
+		height: 300px;
+		width: 40%;
+		z-index: 1;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+	#sec3
+	{
+		font-size: 120%;
+		color: white;
+		height: 850px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 600px)
+{
+	#sec1
+	{
+		opacity: 0.9;
+		height: 600px;
+		background-color: maroon;
+	}
+	ul
+	{
+		font-size: 200%;
+		list-style-type: none;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	#hor_list
+	{
+		width: 100%;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 30px 0px;
+		text-decoration: none;
+	}
+	.about
+	{
+		border-radius: 40px;
+		color: yellow;
+		font-size: 200%;
+		text-align: center;
+		background-color: green; 
+		height: 70px;
+		width: 100%;
+	}
+	#eabout
+	{
+		padding: 7px;
+		font-size: 250%;
+	}
+	#sec2
+	{
+		font-size: 200%;
+		color: white;
+		height: 600px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+	#ab
+	{
+		font-size: 40%;
+		padding: 20px;
+	}
+	#edu
+	{
+		text-align: left;
+		font-size: 70%;
+		padding: 15px;
+	}
+	#myphoto
+	{
+		border-radius: 100%;
+		position: absolute;
+		top: -300px;
+		left: 400px;
+		height: 300px;
+		width: 40%;
+		z-index: 1;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+	#sec3
+	{
+		font-size: 120%;
+		color: white;
+		height: 500px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+	#sec1
+	{
+		opacity: 0.9;
+		height: 600px;
+		background-color: maroon;
+	}
+	ul
+	{
+		font-size: 200%;
+		list-style-type: none;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	#hor_list
+	{
+		width: 100%;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 30px 0px;
+		text-decoration: none;
+	}
+	.about
+	{
+		border-radius: 40px;
+		color: yellow;
+		font-size: 200%;
+		text-align: center;
+		background-color: green; 
+		height: 70px;
+		width: 100%;
+	}
+	#eabout
+	{
+		padding: 7px;
+		font-size: 250%;
+	}
+	#sec2
+	{
+		font-size: 200%;
+		color: white;
+		height: 560px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+	#ab
+	{
+		font-size: 40%;
+		padding: 20px;
+	}
+	#edu
+	{
+		text-align: left;
+		font-size: 70%;
+		padding: 15px;
+	}
+	#myphoto
+	{
+		border-radius: 100%;
+		position: absolute;
+		top: -300px;
+		left: 400px;
+		height: 300px;
+		width: 40%;
+		z-index: 1;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+	#sec3
+	{
+		font-size: 120%;
+		color: white;
+		height: 380px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+}
+@media screen and (min-width: 900px) and (max-width: 1280px)
+{
+	#sec1
+	{
+		opacity: 0.9;
+		height: 50px;
+		background-color: maroon;
+	}
+	ul
+	{
+		font-size: 130%;
+		list-style-type: none;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	#hor_list
+	{
+		float:left;
+		width: 20%;
+	}
+	li a:hover
+	{
+		background-color: black;
+		transition-duration: 0.3;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 7px 10px;
+		text-decoration: none;
+		transition-duration: 0.5s;
+	}
+	.about
+	{
+		border-radius: 40px;
+		color: yellow;
+		font-size: 100%;
+		text-align: center;
+		background-color: green; 
+		height: 70px;
+		width: 100%;
+	}
+	#eabout
+	{
+		padding: 7px;
+		font-size: 150%;
+	}
+	#sec2
+	{
+		font-size: 350%;
+		color: white;
+		height: 560px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+	#ab
+	{
+		font-size: 40%;
+		padding: 20px;
+	}
+	#edu
+	{
+		text-align: left;
+		font-size: 60%;
+		padding: 15px;
+	}
+	#myphoto
+	{
+		border-radius: 100%;
+		position: absolute;
+		top: 80px;
+		left: -250px;
+		height: 400px;
+		width: 100%;
+		z-index: 1;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+	#sec3
+	{
+		font-size: 200%;
+		color: white;
+		height: 350px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+}
+@media screen and (min-width: 1280px)
+{
+	#sec1
+	{
+		opacity: 0.9;
+		height: 50px;
+		background-color: maroon;
+	}
+	#myphoto
+	{
+		border-radius: 100%;
+		position: absolute;
+		height: 400px;
+		width: 100%;
+		top: 20px;
+		left: -50px;
+		z-index: 1;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		filter: FlipH;
+		-ms-filter: "FlipH";
+	}
+	ul
+	{
+		font-size: 130%;
+		list-style-type: none;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	#hor_list
+	{
+		float:left;
+		width: 20%;
+	}
+	li a:hover
+	{
+		background-color: black;
+		transition-duration: 0.3;
+	}
+	li a
+	{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 7px 10px;
+		text-decoration: none;
+		transition-duration: 0.5s;
+	}
+	#sec2
+	{
+		font-size: 200%;
+		color: white;
+		height: 550px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+	#sec3
+	{
+		font-size: 200%;
+		color: white;
+		height: 400px;
+		background-color: maroon;
+		opacity: 0.9;
+	}
+	.about
+	{
+		color: yellow;
+		font-size: 300%;
+		background-color: green; 
+		height: 120px;
+		width: 100%;
+		text-align: center;
+	}
+	#space
+	{
+		height: 300px;
+	}
+}
+#cont
+{
+		font-size: 150%;
+		color: maroon;
+}
+.footer
+{
+	border-radius: 20px;
+  	left: 0;
+	bottom: 0;
+  	text-align: center;
+  	height: 170px;
+  	color: blue;
+  	background-color: grey;
+  	opacity: 0.9;
+  	font-size: 100%;
+  	width: 100%;
+}
+input[type=text], input[type=E-mail], select, textarea 
+{
+	color: black;
+	background-color: white;
+   	width: 100%; 
+    padding: 12px;  
+   	border: 1px solid #ccc; 
+   	border-radius: 4px; 
+   	box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] 
+{
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+ 	border-radius: 4px;
+   	cursor: pointer;
+}
+.container
+{
+	width: 100%;
+	border-radius: 10px;
+ 	background-color: lightblue;
+ 	opacity: 0.9;
+ 	padding: 20px;
+}
+label
+{
+	color: maroon;
+	font-size: 20px;
+}
+input::-moz-placeholder,textarea::-moz-placeholder
+{
+	color: black !important;  
+}
+#row1
+{
+	height: 100px;
+}
+div
+{
+	border-radius: 10px;
+}
+#skill
+{
+	opacity: 0.9;
+	height: 400px;
+	background-color: yellow;
+}
